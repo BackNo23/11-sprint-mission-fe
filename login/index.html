@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/resetCss.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="icon" type="image/svg+xml" href="../imgs/logo/favicon.svg" />
+    <title>판다마켓 로그인</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <a href="/">
+          <img src="../imgs/logo/loginLogo.png" alt="loginHeaderImg" />
+        </a>
+      </section>
+      <form>
+        <div class="emailInput">
+          <label for="email">이메일</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="이메일을 입력해주세요"
+          />
+        </div>
+        <div class="passwordInput">
+          <label for="passworld">비밀번호</label>
+          <div class="passwordInputWrapper">
+            <input
+              id="passworld"
+              name="passworld"
+              type="password"
+              placeholder="비밀번호를 입력해주세요"
+            />
+            <img src="../imgs/login/btn_visibility_off_24px.png" />
+          </div>
+        </div>
+        <button class="loginBtn" type="submit">로그인</button>
+      </form>
+      <section class="easyLogin">
+        <p>간편로그인</p>
+        <div class="snsLogoBtnWrapper">
+          <a href="https://www.google.com/" target="_blank">
+            <img src="../imgs/login/googleLogo.png" alt="googleLogo" />
+          </a>
+          <a href="https://www.kakaocorp.com/page/" target="_blank">
+            <img src="../imgs/login/kakaoLogo.png" alt="kakaoLogo" />
+          </a>
+        </div>
+      </section>
+      <section class="userJoinWrapper">
+        <p>
+          판다마켓이 처음이신가요?
+          <span><a href="../signup">회원가입</a></span>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
